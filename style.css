@@ -74,24 +74,23 @@ body {
 }
 
 .image-02 {
-    margin-left: -160px;
+    margin-left: -200px;
     margin-top: 18px;
     width: 78%;
     padding-right: 5px;
 }
 
 .image-03 {
-    margin-right: -160px;
+    margin-right: -200px;
     margin-top: 18px;
     width: 78%;
     padding-left: 5px;
 }
 
 .image-02-figcaption {
-    margin-left: -160px;
-    font-size: 13.3px;
+    margin-left: -200px;
+    font-size: 15px;
     display: inline-block;
-    margin-left: -160px;
     width: 78%;
     padding-right: 5px;
     color: #888;
@@ -100,10 +99,9 @@ body {
 }
 
 .image-03-figcaption {
-    margin-right: -120px;
-    font-size: 14px;
+    margin-right: -200px;
+    font-size: 15px;
     display: inline-block;
-    margin-right: -160px;
     width: 78%;
     padding-left: 5px;
     color: #888;
@@ -182,7 +180,7 @@ footer {
     text-align: center;
 }
 
-.week01-reference:hover {
+.week02-reference:hover {
     background-color: rgb(175, 23, 23);
     color: white;
 }
