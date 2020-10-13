@@ -165,3 +165,24 @@ footer {
     line-height: 15px;
     color: #666;
 }
+
+.week02-reference {
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    color: white;
+    display: block;
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 15px;
+    padding: 5px 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.week01-reference:hover {
+    background-color: rgb(175, 23, 23);
+    color: white;
+}
