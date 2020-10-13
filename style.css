@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'nyt-cheltenham-italic';
+    src: url('assets/cheltenham-italic-400.b8fcda1bedf33a4ad1e4d11fac428e3a.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'nyt-cheltenham-normal';
+    src: url('assets/cheltenham-normal-300.cecc961ed849c01655ce98886cb1ab47.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'nyt-imperial';
+    src: url('assets/imperial-normal-400.a5270edf37ca346207a3a6ff637a022a.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'nyt-franklin';
+    src: url('assets/franklin-normal-300.d1bf0bccfda41b1a77ea392b7a26d4cf.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+}
+
+body {
+    margin: 28% 28%;
+    font-size: 20.5px;
+    color: #333;
+    line-height: 30px;
+}
+
+.main-title{
+    color: #121212;
+    font-family: 'nyt-cheltenham-italic', georgia,'times new roman',times,serif;
+    font-size: 34px;
+    text-align: left;
+    line-height: 42px;
+    padding-bottom: 0px;
+    font-weight: 800;
+}
+
+.subtitle {
+    color:#333;
+    font-family: 'nyt-cheltenham-normal',georgia,'times new roman',times,serif;
+    font-weight: 500;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.image-01 {
+    color: #666;
+    font-family: 'nyt-imperial', georgia,'times new roman',times,serif;
+    font-size: 15.2px;
+    margin-bottom:38px;
+}
+
+.image-01 img {
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.image-01 figcaption {
+    line-height: 19px;
+    padding: 1px;
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+.image-02 {
+    margin-left: -160px;
+    margin-top: 18px;
+    width: 78%;
+    padding-right: 5px;
+}
+
+.image-03 {
+    margin-right: -160px;
+    margin-top: 18px;
+    width: 78%;
+    padding-left: 5px;
+}
+
+.image-02-figcaption {
+    margin-left: -160px;
+    font-size: 13.3px;
+    display: inline-block;
+    margin-left: -160px;
+    width: 78%;
+    padding-right: 5px;
+    color: #888;
+    font-family: 'nyt-imperial', georgia,'times new roman',times,serif;
+    line-height: 21px;
+}
+
+.image-03-figcaption {
+    margin-right: -120px;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: -160px;
+    width: 78%;
+    padding-left: 5px;
+    color: #888;
+    font-family: 'nyt-imperial', georgia,'times new roman',times,serif;
+    line-height: 21px;
+}
+
+.date {
+    font: inherit;
+    font-family: 'nyt-imperial',georgia,'times new roman',times,serif;
+    color: #333;
+    font-size: 13px;
+}
+
+
+.author {
+    font-family: 'nyt-imperial',georgia,'times new roman',times,serif;
+    color: #333;
+    font-weight: 750;
+    font-size: 14px;
+    display: flex;
+    font-style: bold;
+}
+
+.author a{
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+    color:#333;
+}
+
+.author a:hover {
+    text-decoration: none;
+}
+
+.main-content {
+    font-family: 'nyt-imperial',georgia,'times new roman',times,serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.link {
+    color: #326891;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+footer {
+    color: #666;
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    color: #666;
+}
